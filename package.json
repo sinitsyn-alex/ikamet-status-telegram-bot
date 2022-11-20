@@ -1,0 +1,26 @@
+{
+  "name": "ikamet-status-telegram-bot",
+  "version": "1.0.0",
+  "description": "Ikamet status telegram bot",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/app.js\""
+  },
+  "author": "Alex Sinitsyn",
+  "dependencies": {
+    "2captcha": "3.0.5",
+    "dotenv": "10.0.0",
+    "node-telegram-bot-api": "0.53.0",
+    "puppeteer": "18.2.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "8.2.0",
+    "@types/node": "15.12.4",
+    "@types/node-telegram-bot-api": "0.51.1",
+    "concurrently": "6.2.0",
+    "nodemon": "2.0.7",
+    "typescript": "4.5.5"
+  }
+}
